@@ -190,7 +190,7 @@ export default function Register() {
                   <FormLabel>Captcha</FormLabel>
                   <FormControl>
                     <ReCAPTCHA
-                      sitekey="{process.env.GOOGLE_RECAPTCHA_SITE_KEY}"
+                      sitekey={process.env.GOOGLE_RECAPTCHA_SITE_KEY!}
                       onChange={field.onChange}
                     />
                   </FormControl>
