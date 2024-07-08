@@ -128,7 +128,7 @@ export default function Login() {
               )}
             />
             <ReCAPTCHA
-              sitekey="6LethIQpAAAAAF8dEedS-q0Z5jnVH6cKXH9UzMle"
+              sitekey="${process.env.GOOGLE_RECAPTCHA_SITE_KEY}"
               onChange={(v) => setCap(v)}
             />
             <Button size={"full"} disabled={form.formState.isSubmitting}>
