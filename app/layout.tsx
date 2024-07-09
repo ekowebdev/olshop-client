@@ -10,7 +10,6 @@ const poppins = Poppins({
 import StoreProvider from "@/lib/redux/StoreProvider";
 import { Toaster } from "react-hot-toast";
 import { ThemeProvider } from "@/components/theme-providers";
-import Socket from "@/components/Socket";
 
 export const metadata: Metadata = {
   title: "Bakti Shop",
@@ -33,7 +32,6 @@ export default function ClientRootLayout({
           disableTransitionOnChange
         >
           <AuthProvider>
-            <Socket></Socket>
             <StoreProvider>{children}</StoreProvider>
           </AuthProvider>
           <Toaster position="top-center" />
