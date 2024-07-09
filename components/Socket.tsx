@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getSession } from 'next-auth/react';
-import pusherPromise from "../lib/pusher";
+import pusherPromise from "@/lib/pusher";
 
 const Socket = () => {
     const [totalUnreadData, setTotalUnreadData] = useState(0);

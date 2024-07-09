@@ -1,4 +1,3 @@
-import Socket from "@/components/Socket";
 import TransactionClient from "@/components/users/transactions/TransactionClient";
 import { OrdersDataFull } from "@/lib/types/order";
 import { getOrdersByUser } from "@/lib/utils/action/OrderActions";
@@ -23,7 +22,6 @@ export default async function DashboardPage({
   return (
     <section className="w-full h-full min-h-screen">
       <div className="w-full flex gap-3 items-center py-4 px-1 sm:px-6 mb-3 border-b-2 bg-secondary/50">
-        <Socket></Socket>
         <AiOutlineSchedule className={"w-6 h-6 stroke-2"} />
         <h2 className="font-semibold text-lg">Riwayat Transaksi</h2>
       </div>
