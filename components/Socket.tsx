@@ -25,8 +25,8 @@ const Socket = () => {
             const channel = pusher.subscribe(`private-Order.User.${userId}`);
 
             channel.bind('order-user', (e: any) => {
-                console.log(e);
-                setTotalUnreadData(e.data.total_unread);
+                console.log(e.data);
+                setTotalUnreadData(e.data.summary.total_unread);
             });
 
             return () => {
