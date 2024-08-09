@@ -1,37 +1,8 @@
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
 
-# First Online Shop
+# Online Shop Client
 
-### This is beta version
 ![](olshop.jpg)
-
-First, run installation
-
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-Second, run installation
-
-```
-change your envirotment file
-```
-
-Last, run run server use
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-enjoy use 😁!
 
 <!-- ## Getting Started
 
